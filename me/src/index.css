@@ -1,0 +1,288 @@
+/*********************
+  Global
+**********************/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #303135;
+  color: #fff;
+  font-size: 1em;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: -50px;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+  height: 50px;
+}
+
+.container {
+  margin: auto;
+}
+
+.page .header {
+  text-align: center;
+  background-color: #202023;
+  color: whitesmoke;
+  padding: 20px 0;
+}
+
+.page .header h2 {
+  margin: 0;
+}
+
+.page .body {
+  width: 95%;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.card-list {
+  padding: 0;
+}
+
+.card-list li {
+  background-color: #202023;
+  display: inline-block;
+  list-style: none;
+  overflow: hidden;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card-list li:hover {
+  background-color: #35A2C5;
+}
+
+.about-list {
+  margin: 0;
+}
+
+.about-list li {
+  line-height: 1.8em;
+  width: 200px;
+  height: 200px;
+}
+
+.about-list i {
+  display: block;
+  font-size: 3.5em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.hobbies-list li {
+  line-height: 1.6em;
+  width: 112px;
+  height: 100px;
+}
+
+.hobbies-list i {
+  display: block;
+  font-size: 2.5em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.photo-list li {
+  width: 200px;
+  height: 200px;
+}
+
+.photo-list li img {
+  width: 100%;
+}
+
+/*********************
+  Nav
+**********************/
+.Nav {
+  background-color: whitesmoke;
+  color: #303135;
+  width: 100%;
+  text-align: left;
+  height: 60px;
+}
+
+.Nav .title {
+  padding-left: 20px;
+  font-size: 2em;
+  font-weight: lighter;
+  text-transform: lowercase;
+  line-height: 60px;
+}
+
+.Nav i {
+  font-size: 0.6em;
+}
+
+/*********************
+  Menu
+**********************/
+.Menu {
+  float: right;
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  line-height: 60px;
+}
+
+.Menu li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 33.3%;
+  text-align: center;
+  text-transform: lowercase;
+  display: inline-block;
+}
+
+.Menu a {
+  text-decoration: none;
+  color: #303135;
+}
+
+.Menu a li:hover {
+  background-color: #202023;
+  color: whitesmoke;
+}
+
+/*********************
+  Footer
+**********************/
+.Footer {
+  width: 100%;
+  background-color: #202023;
+  margin-top: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Footer .explanation {
+  padding-left: 7px;
+  line-height: 50px;
+  font-size: 0.8em;
+  float: left;
+  color: whitesmoke;
+}
+
+.Footer .explanation i {
+  color: whitesmoke;
+}
+
+.Footer .react-logo {
+  float: left;
+  width: 45px;
+  height: 45px;
+  animation: app-logo-spin infinite 20s linear;
+}
+
+@keyframes app-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Footer .info {
+  padding-right: 15px;
+  color: whitesmoke;
+  line-height: 50px;
+  float: right;
+}
+
+.Footer i {
+  color: palevioletred;
+}
+
+.Footer a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.Footer a:hover {
+  text-decoration: underline;
+}
+
+/*********************
+  Smaller Screens
+**********************/
+@media (max-width: 800px) {
+
+/*********************
+  Global
+**********************/
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.page .header {
+  background-color:whitesmoke;
+  color: black;
+}
+
+/*********************
+  Menu
+**********************/
+.Nav {
+  margin: 0;
+  padding: 0;
+}
+
+.Nav .title {
+  text-align: center;
+  display: block;
+}
+
+.Menu {
+  color: white;
+  display: block;
+  width: 100%;
+  background-color: #202023;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.Menu li {
+  list-style: none;
+  height: 50px;
+
+  line-height: 50px;
+  margin: auto;
+  text-transform: lowercase;
+  display: block;
+  width: 100%;
+}
+
+.Menu a li:hover {
+  background-color: whitesmoke;
+  color: black;
+} 
+
+.Menu a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+
+}

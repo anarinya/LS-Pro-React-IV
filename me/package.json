@@ -19,5 +19,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://anarinya.github.io/LS-Pro-React-IV"
+  "homepage": "https://anarinya.github.io/LS-Pro-React-IV/"
 }
